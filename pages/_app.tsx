@@ -8,15 +8,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <h1>
         <Link href="https://vamshi.nl">vamshi.nl</Link>
       </h1>
-      <div
-        style={{
-          background: "#00000020",
-          paddingLeft: "1rem",
-          paddingRight: "1rem",
-        }}
-      >
-        <Component {...pageProps} />
-      </div>
+      <Component {...pageProps} />
     </>
   );
 }
