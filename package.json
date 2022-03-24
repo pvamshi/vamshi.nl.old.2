@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "preexport":"yarn build",
-    "export":"next export",
+    "export":"next export -o docs",
     "start": "next start",
     "lint": "next lint"
   },
