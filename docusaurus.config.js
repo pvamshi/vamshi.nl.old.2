@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧑🏻‍💻 </text></svg>',
   organizationName: 'pvamshi', // Usually your GitHub org/user name.
   projectName: 'vamshi.nl', // Usually your repo name.
 
@@ -21,13 +21,11 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        docs: false,
         blog: {
+          routeBasePath:'/',
           showReadingTime: true,
+
           // Please change this to your repo.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
@@ -48,29 +46,8 @@ const config = {
       respectPrefersColorScheme: true,
     },
       navbar: {
-        title: 'vamshi.nl',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
-        items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
-      },
-      footer: {
-        style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} . Built with Docusaurus.`,
+        title: '🧑🏻‍💻 vamshi.nl',
+        items: [],
       },
       prism: {
         theme: lightCodeTheme,
