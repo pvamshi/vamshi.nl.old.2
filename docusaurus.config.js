@@ -28,7 +28,7 @@ const config = {
 
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -38,22 +38,51 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+  /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+  ({
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
-      navbar: {
-        title: '🧑🏻‍💻 vamshi.nl',
-        items: [],
-      },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
-    }),
-};
+    navbar: {
+      title: '🧑🏻‍💻 vamshi.nl',
+      items: [],
+    },
+    prism: {
+      theme: lightCodeTheme,
+      darkTheme: darkCodeTheme,
+    },
+  }),
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        /**
+* Required for any multi-instance plugin
+*/
+        id: 'life',
+        /**
+* URL route for the blog section of your site.
+* *DO NOT* include a trailing slash.
+*/
+        routeBasePath: '/life',
+        /**
+* Path to data on filesystem relative to site dir.
+*/
+        postsPerPage: 2,
+        editUrl:
+          'https://github.com/facebook/docusaurus/edit/master/website/my-blog',
+        path: 'life',
+        feedOptions: {
+          type: 'all',
+          copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc.`,
+        },
+      },
+    ],
+  ],
+
+
+};
 module.exports = config;

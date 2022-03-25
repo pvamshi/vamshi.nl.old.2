@@ -1314,7 +1314,7 @@
     "@types/react-router-dom" "*"
     react-helmet-async "*"
 
-"@docusaurus/plugin-content-blog@2.0.0-beta.17":
+"@docusaurus/plugin-content-blog@2.0.0-beta.17", "@docusaurus/plugin-content-blog@^2.0.0-beta.17":
   version "2.0.0-beta.17"
   resolved "https://registry.yarnpkg.com/@docusaurus/plugin-content-blog/-/plugin-content-blog-2.0.0-beta.17.tgz#1d1063bfda78a80d517694567b965d5c3a70479f"
   integrity sha512-gcX4UR+WKT4bhF8FICBQHy+ESS9iRMeaglSboTZbA/YHGax/3EuZtcPU3dU4E/HFJeZ866wgUdbLKpIpsZOidg==
