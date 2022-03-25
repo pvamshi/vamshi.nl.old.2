@@ -47,7 +47,8 @@ const config = {
     },
     navbar: {
       title: '🧑🏻‍💻 vamshi.nl',
-      items: [],
+      items: [
+      ],
     },
     prism: {
       theme: lightCodeTheme,
@@ -59,26 +60,10 @@ const config = {
     [
       '@docusaurus/plugin-content-blog',
       {
-        /**
-* Required for any multi-instance plugin
-*/
         id: 'life',
-        /**
-* URL route for the blog section of your site.
-* *DO NOT* include a trailing slash.
-*/
         routeBasePath: '/life',
-        /**
-* Path to data on filesystem relative to site dir.
-*/
         postsPerPage: 2,
-        editUrl:
-          'https://github.com/facebook/docusaurus/edit/master/website/my-blog',
         path: 'life',
-        feedOptions: {
-          type: 'all',
-          copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc.`,
-        },
       },
     ],
   ],
