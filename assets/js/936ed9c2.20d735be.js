@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvamshi=self.webpackChunkvamshi||[]).push([[721],{1716:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Life is Beautiful","permalink":"/life/life-is"}]}')}}]);

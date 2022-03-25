@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.vamshi.nl/life</id>
+    <title>vamshi.nl Blog</title>
+    <updated>2022-03-25T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://www.vamshi.nl/life"/>
+    <subtitle>vamshi.nl Blog</subtitle>
+    <icon>https://www.vamshi.nl/data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%22.9em%22 font-size=%2290%22&gt;🧑🏻‍💻 &lt;/text&gt;&lt;/svg&gt;</icon>
+    <entry>
+        <title type="html"><![CDATA[Life is Beautiful]]></title>
+        <id>life-is</id>
+        <link href="https://www.vamshi.nl/life/life-is"/>
+        <updated>2022-03-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[a very good movie]]></summary>
+        <content type="html"><![CDATA[<p>a very good movie</p>]]></content>
+    </entry>
+</feed>
